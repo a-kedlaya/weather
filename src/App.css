@@ -160,13 +160,13 @@ body {
   
 
   input[type="text"] {
-    width: 65%;
+    width: 60%;
     font-size: 14px;
     width:100%;
     max-width:100%;
   }
 
-  button {
+.search.btn {
     padding: 8px 16px;
     font-size: 14px;
     width:100%;
