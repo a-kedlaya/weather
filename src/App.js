@@ -13,7 +13,7 @@ function WeatherApp() {
     try {
       setError(null);
       const res = await fetch(
-        `https://api.weatherapi.com/v1/forecast.json?key=32f56bd950384188bf1160304252008&q=${encodeURIComponent(query)}&days=5&aqi=no&alerts=no`
+        `https://api.weatherapi.com/v1/forecast.json?key=cdf5a63c0ada4001a04163028252008&q=${encodeURIComponent(query)}&days=5&aqi=no&alerts=no`
       );
 
       const data = await res.json();
