@@ -8,10 +8,13 @@ body {
   margin: 0;
   padding: "20px";
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
-  margin-left: 12%;
+  margin-left: 11%;
   align-items: top;
    
 }
@@ -140,4 +143,20 @@ body {
 .forecast-icon {
   width: 60px;
   margin: 10px auto;
+}
+@media (max-width: 600px) {
+  .app-container{
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  input[type="text"] {
+    width: 65%;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
 }
