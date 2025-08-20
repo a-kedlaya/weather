@@ -41,7 +41,7 @@ function WeatherApp() {
       <div className="search-container">
         <input
           type="text"
-          placeholder="Enter country or city..."
+          placeholder="Enter city..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="search-input"
